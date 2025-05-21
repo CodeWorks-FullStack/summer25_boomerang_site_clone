@@ -10,18 +10,55 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
     defer></script>
+  <!-- NOTE this tool will debug and help with your bootstrap grid system! -->
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
   <link rel="stylesheet" href="style.css">
   <title>Boomerang</title>
 </head>
 
-<body>
-  <div class="container">
+<!-- NOTE in order to use the debug tool, you must have a class of debug on your body -->
+
+<body class="debug">
+  <!-- <div class="container">
     <div class="row text-center">
       <div class="col-12 col-sm-8 col-md-4 col-lg-3 bg-success p-3">🐸</div>
       <div class="col-6 col-md-4 bg-warning p-3">🐶</div>
       <div class="col-6 col-md-4 bg-danger p-3">🐀</div>
     </div>
-  </div>
+  </div> -->
+
+  <header class="px-4 py-2">
+    <!-- NOTE containers are how we start grids -->
+    <div class="container-fluid">
+      <!-- NOTE rows are always display-flex -->
+      <div class="row justify-content-between align-items-center">
+        <div class="col-6 col-md-2">
+          <b class="fs-4">Boomerang</b>
+        </div>
+        <div class="col-6 d-none d-md-block">
+          <nav class="d-flex justify-content-evenly">
+            <b>HOME</b>
+            <b>PAGES</b>
+            <b>PORTFOLIO</b>
+            <b>BLOG</b>
+            <b>SHOP</b>
+            <b>COMPONENTS</b>
+            <b>DEMOS</b>
+          </nav>
+        </div>
+        <!-- NOTE try to style your columns as little as possible -->
+        <div class="col-6 col-md-2">
+          <div class="text-end">
+            <span>🛒</span>
+            <span>🍔</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main></main>
+  <footer></footer>
 </body>
 
 </html>
