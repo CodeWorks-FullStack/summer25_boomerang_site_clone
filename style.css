@@ -1,5 +1,5 @@
 #your-site {
-  margin-bottom: 20em;
+  margin-bottom: 15em;
 }
 
 
@@ -18,7 +18,7 @@
   transition: transform ease-in-out .2s;
 }
 
-.icon-jiggle:hover {
+.info-blurb:hover .icon-jiggle {
   transform: translateY(-.5rem);
 }
 
