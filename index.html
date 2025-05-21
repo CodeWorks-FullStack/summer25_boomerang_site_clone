@@ -13,6 +13,7 @@
   <!-- NOTE this tool will debug and help with your bootstrap grid system! -->
   <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
     defer></script>
+  <!-- NOTE make sure your stylesheet loads after the bootstrap stylesheet -->
   <link rel="stylesheet" href="style.css">
   <title>Boomerang</title>
 </head>
@@ -57,7 +58,26 @@
       </div>
     </div>
   </header>
-  <main></main>
+  <main>
+    <!-- ANCHOR hero -->
+    <div class="container-fluid">
+      <div class="row align-items-center office-bg">
+        <div class="col-12">
+          <div class="text-center text-light">
+            <h1 class="text-shadow">Your customers will love you one minute from now</h1>
+            <p class="fw-bold text-shadow">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus vitae id assumenda ex dolorum quis fugit
+              provident rerum corporis. Rerum.
+            </p>
+            <div>
+              <button class="btn btn-primary rounded-pill fs-4">Get Started</button>
+              <button class="btn btn-outline-light rounded-pill fs-4">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
   <footer></footer>
 </body>
 
