@@ -18,12 +18,14 @@
   transition: transform ease-in-out .2s;
 }
 
+/* :hover is a pseudo-selector in css. It will apply styles when the mouse cursor hovers over an element */
 .info-blurb:hover .icon-jiggle {
   transform: translateY(-.5rem);
 }
 
 /* Specificity examples */
-/* #cool {
+/* 
+#cool {
   color: green;
 }
 
@@ -37,4 +39,5 @@ b {
 
 .cool {
   color: purple;
-} */
+} 
+*/
